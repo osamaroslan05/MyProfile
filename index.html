@@ -1,135 +1,376 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To My Love, Nur Khaizatul Neesha</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Great+Vibes&display=swap');
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            background: linear-gradient(135deg, #1a001a, #4a0033, #1a001a);
-            font-family: 'Poppins', sans-serif;
-            color: #fff;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            overflow-x: hidden;
-            padding: 20px;
-        }
-
-        .card {
-            background: rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(15px);
-            -webkit-backdrop-filter: blur(15px);
-            border: 1px solid rgba(255, 182, 193, 0.2);
-            border-radius: 20px;
-            padding: 40px 30px;
-            max-width: 500px;
-            width: 100%;
-            text-align: center;
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5), 0 0 30px rgba(255, 105, 180, 0.2);
-            animation: fadeIn 1.5s ease-in-out;
-        }
-
-        .image-container {
-            width: 180px;
-            height: 180px;
-            margin: 0 auto 25px auto;
-            border-radius: 50%;
-            overflow: hidden;
-            border: 4px solid #ff69b4;
-            box-shadow: 0 0 20px rgba(255, 105, 180, 0.6);
-            transition: transform 0.3s ease;
-        }
-
-        .image-container:hover {
-            transform: scale(1.05);
-        }
-
-        .image-container img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        h1 {
-            font-family: 'Great Vibes', cursive;
-            font-size: 3.2rem;
-            color: #ff99cc;
-            margin-bottom: 10px;
-            text-shadow: 0 0 10px rgba(255, 153, 204, 0.5);
-        }
-
-        h2 {
-            font-size: 1.1rem;
-            font-weight: 600;
-            letter-spacing: 2px;
-            color: #ffb6c1;
-            margin-bottom: 25px;
-            text-transform: uppercase;
-        }
-
-        p {
-            font-weight: 300;
-            line-height: 1.8;
-            color: #fce4ec;
-            font-size: 1rem;
-            margin-bottom: 20px;
-        }
-
-        .heart-icon {
-            color: #ff3366;
-            font-size: 1.5rem;
-            animation: heartbeat 1.2s infinite;
-            display: inline-block;
-            margin-top: 10px;
-        }
-
-        @keyframes heartbeat {
-            0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.25); }
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-    </style>
+    <title>AHMAD OSAMA | NETWORK ENGINEER</title>
+    
+    <!-- Google Fonts (Inter / Apple System Font Fallback) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Lenis Smooth Scroll CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.css">
 </head>
 <body>
 
-    <div class="card">
-        <!-- 
-          HOW TO USE YOUR OWN IMAGE:
-          Change 'neesha.jpg' below to the exact name and extension of your photo 
-          (e.g., 'neesha.png' or 'photo.jpg') as long as it's in the same folder!
-        -->
-        <div class="image-container">
-            <img src="IMG_8892.jpeg" alt="Nur Khaizatul Neesha">
+    <!-- Navigation Bar -->
+    <nav class="nav-bar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">AHMAD OSAMA</a>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#family" class="nav-link">Family & Life</a>
+                <a href="#contact" class="nav-link nav-cta">Contact</a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle Menu" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+            </button>
         </div>
+    </nav>
 
-        <h1>My Forever Love</h1>
-        <h2>Nur Khaizatul Neesha Binti Kamarudin</h2>
-        
-        <p>
-            From the moment you came into my life, everything became brighter, warmer, and full of meaning. 
-            You are my peace, my joy, and my absolute favorite part of every single day. 
-            I am so blessed and proud to call you my fiancée.
-        </p>
-        
-        <p>
-            I love you today, tomorrow, and for all the days and years ahead of us. 
-            <br><span class="heart-icon">❤️</span>
-        </p>
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#about" class="mobile-link">About</a>
+        <a href="#experience" class="mobile-link">Experience</a>
+        <a href="#projects" class="mobile-link">Projects</a>
+        <a href="#education" class="mobile-link">Education</a>
+        <a href="#family" class="mobile-link">Family & Life</a>
+        <a href="#contact" class="mobile-link">Contact</a>
     </div>
 
+    <main>
+        <!-- A) HERO / INTRO -->
+        <section id="hero" class="hero-section">
+            <div class="hero-bg-glow"></div>
+            <div class="container hero-content">
+                <div class="hero-badge">
+                    <span class="pulse-dot"></span> Available for opportunities
+                </div>
+                <h1 class="hero-title">
+                    <span class="hero-word">Hi,</span> 
+                    <span class="hero-word">I'm</span> 
+                    <span class="hero-word accent-text">AHMAD OSAMA.</span>
+                </h1>
+                <p class="hero-subtitle">
+                    <span class="hero-word">NETWORK ENGINEER</span> 
+                    <span class="hero-word">&</span> 
+                    <span class="hero-word">crafting</span> 
+                    <span class="hero-word">digital</span> 
+                    <span class="hero-word">experiences.</span>
+                </p>
+                <p class="hero-tagline">
+                    {{YOUR_TAGLINE_OR_SHORT_DESCRIPTION}}
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="assets/resume.pdf" target="_blank" class="btn btn-secondary">Download Resume</a>
+                </div>
+            </div>
+            <div class="scroll-down-indicator">
+                <span>Scroll to explore</span>
+                <div class="bounce-arrow">↓</div>
+            </div>
+        </section>
+
+        <!-- B) ABOUT ME -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">01 / ABOUT ME</span>
+                    <h2 class="section-title">Driven by curiosity and craftsmanship.</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text-content">
+                        <p class="lead-paragraph">
+                            {{ABOUT_PARAGRAPH_1}}
+                        </p>
+                        <p>
+                            {{ABOUT_PARAGRAPH_2}}
+                        </p>
+                        <p>
+                            {{ABOUT_PARAGRAPH_3}}
+                        </p>
+                        <div class="skill-chips-container">
+                            <h3 class="skills-title">Core Technologies & Expertise</h3>
+                            <div class="skill-chips">
+                                <span class="skill-chip">JavaScript (ES6+)</span>
+                                <span class="skill-chip">TypeScript</span>
+                                <span class="skill-chip">React / Next.js</span>
+                                <span class="skill-chip">Node.js</span>
+                                <span class="skill-chip">Python</span>
+                                <span class="skill-chip">UI/UX Design</span>
+                                <span class="skill-chip">Tailwind CSS</span>
+                                <span class="skill-chip">Git & CI/CD</span>
+                                <span class="skill-chip">Cloud Architecture</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image-wrapper">
+                        <div class="image-frame parallax-img-container">
+                            <!-- Placeholder image: replace assets/images/profile.jpg -->
+                            <img src="assets/images/profile.jpg" alt="AHMAD OSAMA Profile Photo" class="profile-img" onerror="this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80'">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- C) EXPERIENCE (Timeline) -->
+        <section id="experience" class="section experience-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">02 / EXPERIENCE</span>
+                    <h2 class="section-title">Where I've made an impact.</h2>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-line"></div>
+                    
+                    <!-- Experience Item 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <span class="timeline-date">{{EXP_1_DATES}}</span>
+                            <h3 class="timeline-role">{{EXP_1_ROLE}}</h3>
+                            <h4 class="timeline-company">{{EXP_1_COMPANY}}</h4>
+                            <ul class="timeline-bullets">
+                                <li>{{EXP_1_BULLET_1}}</li>
+                                <li>{{EXP_1_BULLET_2}}</li>
+                                <li>{{EXP_1_BULLET_3}}</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Experience Item 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <span class="timeline-date">{{EXP_2_DATES}}</span>
+                            <h3 class="timeline-role">{{EXP_2_ROLE}}</h3>
+                            <h4 class="timeline-company">{{EXP_2_COMPANY}}</h4>
+                            <ul class="timeline-bullets">
+                                <li>{{EXP_2_BULLET_1}}</li>
+                                <li>{{EXP_2_BULLET_2}}</li>
+                                <li>{{EXP_2_BULLET_3}}</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Experience Item 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <span class="timeline-date">{{EXP_3_DATES}}</span>
+                            <h3 class="timeline-role">{{EXP_3_ROLE}}</h3>
+                            <h4 class="timeline-company">{{EXP_3_COMPANY}}</h4>
+                            <ul class="timeline-bullets">
+                                <li>{{EXP_3_BULLET_1}}</li>
+                                <li>{{EXP_3_BULLET_2}}</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- D) PROJECTS / PORTFOLIO -->
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">03 / PORTFOLIO</span>
+                    <h2 class="section-title">Featured works & creations.</h2>
+                </div>
+                <div class="projects-grid">
+                    
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-img-wrapper">
+                            <img src="assets/images/project-1.jpg" alt="{{PROJECT_1_TITLE}}" class="project-img" onerror="this.src='https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80'">
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">{{PROJECT_1_TITLE}}</h3>
+                            <p class="project-desc">{{PROJECT_1_DESC}}</p>
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>Tailwind</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="{{PROJECT_1_LIVE_URL}}" target="_blank" class="project-link">Live Demo ↗</a>
+                                <a href="{{PROJECT_1_GITHUB_URL}}" target="_blank" class="project-link">GitHub ↗</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-img-wrapper">
+                            <img src="assets/images/project-2.jpg" alt="{{PROJECT_2_TITLE}}" class="project-img" onerror="this.src='https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80'">
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">{{PROJECT_2_TITLE}}</h3>
+                            <p class="project-desc">{{PROJECT_2_DESC}}</p>
+                            <div class="project-tags">
+                                <span>TypeScript</span>
+                                <span>Next.js</span>
+                                <span>GraphQL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="{{PROJECT_2_LIVE_URL}}" target="_blank" class="project-link">Live Demo ↗</a>
+                                <a href="{{PROJECT_2_GITHUB_URL}}" target="_blank" class="project-link">GitHub ↗</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-img-wrapper">
+                            <img src="assets/images/project-3.jpg" alt="{{PROJECT_3_TITLE}}" class="project-img" onerror="this.src='https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80'">
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">{{PROJECT_3_TITLE}}</h3>
+                            <p class="project-desc">{{PROJECT_3_DESC}}</p>
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>FastAPI</span>
+                                <span>PostgreSQL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="{{PROJECT_3_LIVE_URL}}" target="_blank" class="project-link">Live Demo ↗</a>
+                                <a href="{{PROJECT_3_GITHUB_URL}}" target="_blank" class="project-link">GitHub ↗</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- E) EDUCATION & CERTIFICATIONS -->
+        <section id="education" class="section education-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">04 / BACKGROUND</span>
+                    <h2 class="section-title">Education & Credentials.</h2>
+                </div>
+                <div class="edu-cert-grid">
+                    <div class="edu-column">
+                        <h3 class="column-subtitle">Education</h3>
+                        <div class="edu-card">
+                            <span class="edu-date">{{EDU_1_YEARS}}</span>
+                            <h4 class="edu-degree">{{EDU_1_DEGREE}}</h4>
+                            <p class="edu-school">{{EDU_1_SCHOOL}}</p>
+                            <p class="edu-desc">{{EDU_1_DESC}}</p>
+                        </div>
+                    </div>
+                    <div class="cert-column">
+                        <h3 class="column-subtitle">Certifications</h3>
+                        <div class="cert-card">
+                            <span class="cert-date">{{CERT_1_YEAR}}</span>
+                            <h4 class="cert-title">{{CERT_1_TITLE}}</h4>
+                            <p class="cert-issuer">{{CERT_1_ISSUER}}</p>
+                        </div>
+                        <div class="cert-card">
+                            <span class="cert-date">{{CERT_2_YEAR}}</span>
+                            <h4 class="cert-title">{{CERT_2_TITLE}}</h4>
+                            <p class="cert-issuer">{{CERT_2_ISSUER}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- F) ❤️ FAMILY & PARTNER (Special Section) -->
+        <section id="family" class="section family-section">
+            <div class="floating-hearts" id="floatingHearts"></div>
+            <div class="container">
+                <div class="section-header center-header">
+                    <span class="section-tag">05 / PERSONAL LIFE & HEART</span>
+                    <h2 class="section-title">Family & Inspiration.</h2>
+                </div>
+                <div class="family-message-card">
+                    <p class="family-quote">
+                        "{{FAMILY_MESSAGE}}"
+                    </p>
+                    <span class="family-author">— AHMAD OSAMA</span>
+                </div>
+                
+                <div class="family-gallery">
+                    <div class="gallery-item">
+                        <img src="assets/images/family-1.jpg" alt="Family Moment 1" onerror="this.src='https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=800&q=80'">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/family-2.jpg" alt="Family Moment 2" onerror="this.src='https://images.unsplash.com/photo-1543807535-eceef0bc6599?auto=format&fit=crop&w=800&q=80'">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/family-3.jpg" alt="Family Moment 3" onerror="this.src='https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=800&q=80'">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- G) CONTACT / INTEREST FORM -->
+        <section id="contact" class="section contact-section">
+            <div class="container contact-container">
+                <div class="section-header">
+                    <span class="section-tag">06 / GET IN TOUCH</span>
+                    <h2 class="section-title">Let's build something extraordinary together.</h2>
+                </div>
+                
+                <!-- NOTE FOR FORMSPREE: Replace YOUR_FORMSPREE_ID below with your actual Formspree form ID -->
+                <form id="contactForm" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="john@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message or "I'm interested because..."</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project or opportunity..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full" id="submitBtn">Send Message</button>
+                    <div id="formSuccess" class="form-success-msg hidden">
+                        Thank you! Your message has been sent successfully. I'll get back to you soon.
+                    </div>
+                    <div id="formError" class="form-error-msg hidden">
+                        Oops! Something went wrong. Please try emailing directly or try again later.
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- H) FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="social-links">
+                <a href="{{GITHUB_URL}}" target="_blank">GitHub</a>
+                <a href="{{LINKEDIN_URL}}" target="_blank">LinkedIn</a>
+                <a href="{{TWITTER_URL}}" target="_blank">Twitter / X</a>
+                <a href="mailto:{{YOUR_EMAIL}}">Email</a>
+            </div>
+            <p class="copyright">&copy; <span id="currentYear"></span> AHMAD OSAMA. All rights reserved.</p>
+            <p class="built-with">Built with ❤️ & Apple-inspired minimalism.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts: GSAP, ScrollTrigger, Lenis -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+    
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
 </body>
 </html>

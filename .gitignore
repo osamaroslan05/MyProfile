@@ -1,0 +1,4 @@
+node_modules/
+server/submissions/
+.DS_Store
+.env
