@@ -1,7 +1,7 @@
 {
   "name": "portfolio-backend",
   "version": "1.0.0",
-  "description": "Optional local backend storage server for portfolio contact submissions",
+  "description": "Local backend server for the portfolio site — serves static files and stores contact submissions",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"

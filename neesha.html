@@ -1,135 +1,929 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To My Love, Nur Khaizatul Neesha</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Great+Vibes&display=swap');
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Neesha 💛</title>
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+<link rel="icon" href="assets/favicon.png" type="image/png">
 
-        body {
-            background: linear-gradient(135deg, #1a001a, #4a0033, #1a001a);
-            font-family: 'Poppins', sans-serif;
-            color: #fff;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            overflow-x: hidden;
-            padding: 20px;
-        }
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-        .card {
-            background: rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(15px);
-            -webkit-backdrop-filter: blur(15px);
-            border: 1px solid rgba(255, 182, 193, 0.2);
-            border-radius: 20px;
-            padding: 40px 30px;
-            max-width: 500px;
-            width: 100%;
-            text-align: center;
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5), 0 0 30px rgba(255, 105, 180, 0.2);
-            animation: fadeIn 1.5s ease-in-out;
-        }
-
-        .image-container {
-            width: 180px;
-            height: 180px;
-            margin: 0 auto 25px auto;
-            border-radius: 50%;
-            overflow: hidden;
-            border: 4px solid #ff69b4;
-            box-shadow: 0 0 20px rgba(255, 105, 180, 0.6);
-            transition: transform 0.3s ease;
-        }
-
-        .image-container:hover {
-            transform: scale(1.05);
-        }
-
-        .image-container img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        h1 {
-            font-family: 'Great Vibes', cursive;
-            font-size: 3.2rem;
-            color: #ff99cc;
-            margin-bottom: 10px;
-            text-shadow: 0 0 10px rgba(255, 153, 204, 0.5);
-        }
-
-        h2 {
-            font-size: 1.1rem;
-            font-weight: 600;
-            letter-spacing: 2px;
-            color: #ffb6c1;
-            margin-bottom: 25px;
-            text-transform: uppercase;
-        }
-
-        p {
-            font-weight: 300;
-            line-height: 1.8;
-            color: #fce4ec;
-            font-size: 1rem;
-            margin-bottom: 20px;
-        }
-
-        .heart-icon {
-            color: #ff3366;
-            font-size: 1.5rem;
-            animation: heartbeat 1.2s infinite;
-            display: inline-block;
-            margin-top: 10px;
-        }
-
-        @keyframes heartbeat {
-            0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.25); }
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-    </style>
+<link rel="stylesheet" href="css/neesha.css">
 </head>
 <body>
 
-    <div class="card">
-        <!-- 
-          HOW TO USE YOUR OWN IMAGE:
-          Change 'neesha.jpg' below to the exact name and extension of your photo 
-          (e.g., 'neesha.png' or 'photo.jpg') as long as it's in the same folder!
-        -->
-        <div class="image-container">
-            <img src="IMG_8892.jpeg" alt="Nur Khaizatul Neesha">
-        </div>
+<!-- ============================================
+     TOP NAVIGATION HEADER
+     ============================================ -->
+<header class="site-nav" id="siteNav">
+    <div class="nav-wrap">
+        <a href="#top" class="nav-brand">
+            <span class="nav-brand-icon">💛</span>
+            <span class="nav-brand-text">For Neesha</span>
+        </a>
 
-        <h1>My Forever Love</h1>
-        <h2>Nur Khaizatul Neesha Binti Kamarudin</h2>
-        
-        <p>
-            From the moment you came into my life, everything became brighter, warmer, and full of meaning. 
-            You are my peace, my joy, and my absolute favorite part of every single day. 
-            I am so blessed and proud to call you my fiancée.
-        </p>
-        
-        <p>
-            I love you today, tomorrow, and for all the days and years ahead of us. 
-            <br><span class="heart-icon">❤️</span>
-        </p>
+        <nav class="nav-menu" id="navMenu">
+            <a href="#about" class="nav-item">About Her</a>
+            <a href="#story" class="nav-item">Our Story</a>
+            <a href="#memories" class="nav-item">Memories</a>
+            <a href="#letters" class="nav-item">Letters</a>
+            <a href="#birthday" class="nav-item">Birthday</a>
+        </nav>
+
+        <div class="nav-actions">
+            <a href="index.html" class="nav-back">← Portfolio</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
     </div>
 
+    <div class="nav-mobile" id="navMobile">
+        <a href="#about">About Her</a>
+        <a href="#story">Our Story</a>
+        <a href="#memories">Memories</a>
+        <a href="#letters">Letters</a>
+        <a href="#birthday">Birthday</a>
+        <a href="index.html" class="nav-mobile-back">← Back to Portfolio</a>
+    </div>
+</header>
+
+<!-- Floating hearts background -->
+<div class="hearts-bg" id="heartsBg" aria-hidden="true"></div>
+
+<!-- ============================================
+     AUDIO PLAYER (MP3 PLAYLIST)
+     ============================================ -->
+<audio id="bgMusic" preload="auto" autoplay></audio>
+
+<!-- ============================================
+     PLAYLIST PANEL
+     ============================================ -->
+<div class="playlist-panel" id="playlistPanel">
+    <div class="playlist-head">
+        <span>Our Playlist 💛</span>
+        <button class="playlist-close" id="playlistClose" aria-label="Close playlist">&times;</button>
+    </div>
+    <ul class="playlist-list" id="playlistList"></ul>
+</div>
+
+<!-- ============================================
+     MUSIC CONTROLS
+     ============================================ -->
+<div class="music-cluster">
+    <div class="music-top-row">
+        <button class="music-mini" id="shuffleBtn" aria-label="Toggle shuffle" title="Shuffle">
+            <span>🔀</span>
+        </button>
+        <button class="music-mini" id="playlistBtn" aria-label="Open playlist" title="Playlist">
+            <span>☰</span>
+        </button>
+    </div>
+
+    <div class="music-row">
+        <button class="music-side" id="prevBtn" aria-label="Previous song" title="Previous">
+            <span>⏮</span>
+        </button>
+
+        <button class="music-btn" id="musicBtn" aria-label="Play our song" disabled>
+            <span class="music-icon">🎵</span>
+        </button>
+
+        <button class="music-side" id="nextBtn" aria-label="Next song" title="Next">
+            <span>⏭</span>
+        </button>
+    </div>
+</div>
+
+<!-- Now Playing Toast -->
+<div class="now-playing-toast" id="nowPlayingToast"></div>
+
+<!-- ============================================
+     HERO
+     ============================================ -->
+<section class="hero" id="top">
+    <div class="hero-inner">
+        <span class="hero-eyebrow">A little place on the internet, just for you</span>
+
+        <h1 class="hero-name">Nur Khaizatul Neesha</h1>
+        <p class="hero-sub">binti Kamarudin</p>
+
+        <div class="hero-photo">
+            <img src="assets/neesha.jpg"
+                 alt="Nur Khaizatul Neesha"
+                 onerror="this.src='https://images.unsplash.com/photo-1518623489648-a173ef7824f3?auto=format&fit=crop&w=800&q=80'">
+        </div>
+
+        <p class="hero-quote">
+            "My favorite color is yellow because it reminds me of you — warm, bright, and impossible to ignore."
+        </p>
+
+        <div class="hero-cta">
+            <a href="#story" class="btn btn-primary">Our Story ↓</a>
+            <a href="#letters" class="btn btn-ghost">Letters for You 💌</a>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================
+     ABOUT HER
+     ============================================ -->
+<section id="about" class="section">
+    <div class="container">
+        <header class="section-head reveal">
+            <span class="tag">About Her</span>
+            <h2>All the little things that make you, <em>you</em>.</h2>
+        </header>
+
+        <div class="about-grid">
+            <div class="about-text reveal">
+                <p class="lead">
+                    If sunshine had a name and a heartbeat, it would be yours. You are the yellow in my grey days — warm, gentle, and full of life.
+                </p>
+                <p>
+                    From the way you laugh at the smallest things, to how you always know what to say when I'm quiet — you have this quiet magic that makes everything around you softer.
+                </p>
+                <p>
+                    You're kind without trying, patient without being asked, and so, so strong in ways you don't even notice. You make me want to be a better man — not because you ask, but because you inspire.
+                </p>
+
+                <ul class="qualities">
+                    <li><span>💛</span><span>Your smile — the kind that could light up an entire room.</span></li>
+                    <li><span>🌻</span><span>The way you care so deeply about everyone around you.</span></li>
+                    <li><span>✨</span><span>How you make ordinary days feel like something out of a storybook.</span></li>
+                    <li><span>🤍</span><span>Your patience with me, even when I don't deserve it.</span></li>
+                    <li><span>🌸</span><span>The way your laugh is my favorite sound in the whole world.</span></li>
+                </ul>
+            </div>
+
+            <div class="about-facts reveal">
+                <div class="fact-card">
+                    <span class="fact-icon">🎂</span>
+                    <p class="fact-label">Birthday</p>
+                    <p class="fact-value">July 2, 2001</p>
+                </div>
+                <div class="fact-card">
+                    <span class="fact-icon">💛</span>
+                    <p class="fact-label">Favorite Color</p>
+                    <p class="fact-value">Yellow</p>
+                </div>
+                <div class="fact-card">
+                    <span class="fact-icon">💍</span>
+                    <p class="fact-label">Status</p>
+                    <p class="fact-value">My Fiancée</p>
+                </div>
+                <div class="fact-card">
+                    <span class="fact-icon">📅</span>
+                    <p class="fact-label">Together Since</p>
+                    <p class="fact-value">Aug 16, 2023</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================
+     LOVE STORY / TIMELINE
+     ============================================ -->
+<section id="story" class="section section-warm">
+    <div class="container">
+        <header class="section-head reveal">
+            <span class="tag">Our Love Story</span>
+            <h2>The dates that changed <em>everything</em>.</h2>
+        </header>
+
+        <ol class="timeline">
+            <li class="tl-item reveal">
+                <div class="tl-marker">💬</div>
+                <span class="tl-date">16 August 2023</span>
+                <h3 class="tl-title">The day our first chat began</h3>
+                <p class="tl-text">
+                    A WhatsApp group created by our dear friend Tasnim — just a tiny thread at first, but it ended up being the beginning of everything. I had no idea how much that little group would change my life.
+                </p>
+            </li>
+
+            <li class="tl-item reveal">
+                <div class="tl-marker">💞</div>
+                <span class="tl-date">19 November 2023</span>
+                <h3 class="tl-title">The day we confessed</h3>
+                <p class="tl-text">
+                    The world got a little softer that day. We stopped pretending and started choosing each other — and I've never looked back once.
+                </p>
+            </li>
+
+            <li class="tl-item reveal">
+                <div class="tl-marker">💍</div>
+                <span class="tl-date">1 January 2026</span>
+                <h3 class="tl-title">The day we got engaged</h3>
+                <p class="tl-text">
+                    A brand new year, and a brand new promise. You said yes — and suddenly every future I'd ever imagined had your name written all over it.
+                </p>
+            </li>
+
+            <li class="tl-item upcoming reveal">
+                <div class="tl-marker">👩🏻‍❤️‍👨🏻</div>
+                <span class="tl-date">9 October 2026 <span class="tl-badge">Coming soon</span></span>
+                <h3 class="tl-title">The day we become husband &amp; wife</h3>
+                <p class="tl-text">
+                    The chapter we've been writing towards our whole lives. I can't wait to call you my wife — and to keep choosing you, every single day after.
+                </p>
+            </li>
+        </ol>
+    </div>
+</section>
+
+<!-- ============================================
+     MEMORIES / GALLERY
+     ============================================ -->
+<section id="memories" class="section">
+    <div class="container">
+        <header class="section-head reveal">
+            <span class="tag">Our Memories</span>
+            <h2>A little gallery of <em>us</em>.</h2>
+        </header>
+
+        <div class="gallery-grid">
+
+            <div class="polaroid reveal" data-caption="the day we met">
+                <div class="polaroid-photo">
+                    <img src="assets/neesha-1.jpg" alt="Us - memory 1"
+                         onerror="this.src='https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=800&q=80'">
+                </div>
+                <p class="polaroid-caption">the day we met</p>
+            </div>
+
+            <div class="polaroid reveal" data-caption="coffee dates ☕">
+                <div class="polaroid-photo">
+                    <img src="assets/neesha-2.jpg" alt="Us - memory 2"
+                         onerror="this.src='https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=800&q=80'">
+                </div>
+                <p class="polaroid-caption">coffee dates ☕</p>
+            </div>
+
+            <div class="polaroid reveal" data-caption="our first trip">
+                <div class="polaroid-photo">
+                    <img src="assets/neesha-3.jpg" alt="Us - memory 3">
+                </div>
+                <p class="polaroid-caption">our first trip</p>
+            </div>
+
+            <div class="polaroid reveal" data-caption="just us 🤍">
+                <div class="polaroid-photo">
+                    <img src="assets/neesha-4.jpg" alt="Us - memory 4">
+                </div>
+                <p class="polaroid-caption">just us 🤍</p>
+            </div>
+
+            <div class="polaroid reveal" data-caption="enjoy the moments">
+                <div class="polaroid-photo">
+                    <img src="assets/neesha-5.jpg" alt="Us - memory 5">
+                </div>
+                <p class="polaroid-caption">enjoy the moments</p>
+            </div>
+
+            <div class="polaroid reveal" data-caption="forever with you 💛">
+                <div class="polaroid-photo">
+                    <img src="assets/neesha-6.jpg" alt="Us - memory 6">
+                </div>
+                <p class="polaroid-caption">forever with you 💛</p>
+            </div>
+
+            <div class="polaroid reveal" data-caption="forever with you 💛">
+                <div class="polaroid-photo">
+                    <img src="assets/neesha-6.jpg" alt="Us - memory 6">
+                </div>
+                <p class="polaroid-caption">forever with you 💛</p>
+            </div>
+
+            <div class="polaroid reveal" data-caption="forever with you 💛">
+                <div class="polaroid-photo">
+                    <img src="assets/neesha-6.jpg" alt="Us - memory 6">
+                </div>
+                <p class="polaroid-caption">forever with you 💛</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ============================================
+     LOVE LETTERS
+     ============================================ -->
+<section id="letters" class="section section-warm">
+    <div class="container">
+        <header class="section-head reveal">
+            <span class="tag">Letters For You</span>
+            <h2>Little notes I never knew how to say out loud.</h2>
+        </header>
+
+        <div class="letters-grid">
+
+            <article class="letter reveal" tabindex="0">
+                <div class="wax-seal">💛</div>
+                <h3>The first time I knew</h3>
+                <p class="letter-hint">Tap to open</p>
+                <div class="letter-body">
+                    <p>
+                        I don't remember the exact second it happened. But somewhere between our conversations and your laugh, I stopped seeing you as someone I liked — and started seeing you as someone I couldn't imagine my life without.
+                    </p>
+                    <p class="letter-signature">— always yours</p>
+                </div>
+            </article>
+
+            <article class="letter reveal" tabindex="0">
+                <div class="wax-seal">🌻</div>
+                <h3>Why I love you</h3>
+                <p class="letter-hint">Tap to open</p>
+                <div class="letter-body">
+                    <p>
+                        I love you for the way you care — for the small things you do without being asked, for how you always know when something is wrong, and for how safe you make me feel just by being yourself.
+                    </p>
+                    <p>
+                        I love you for your strength. For your softness. For every version of you I've been lucky enough to watch grow.
+                    </p>
+                    <p class="letter-signature">— your forever</p>
+                </div>
+            </article>
+
+            <article class="letter reveal" tabindex="0">
+                <div class="wax-seal">💍</div>
+                <h3>Our forever</h3>
+                <p class="letter-hint">Tap to open</p>
+                <div class="letter-body">
+                    <p>
+                        One day I'll look back at this little corner of the internet and smile — because by then we'll have built a whole life together. A home. Mornings. Inside jokes. All of it.
+                    </p>
+                    <p>
+                        Until then, and every day after — I choose you. Fully, quietly, and without hesitation.
+                    </p>
+                    <p class="letter-signature">— yours, always</p>
+                </div>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<!-- ============================================
+     BIRTHDAY
+     ============================================ -->
+<section id="birthday" class="section">
+    <div class="container">
+        <header class="section-head reveal">
+            <span class="tag">Happy Birthday</span>
+            <h2>Counting down to <em>your</em> day.</h2>
+        </header>
+
+        <div class="birthday-wrap">
+            <div class="countdown-card reveal">
+                <p class="countdown-title">Until your next birthday 🎂</p>
+                <p class="countdown-sub">July 2 — the day the world got a little brighter</p>
+
+                <div class="countdown-grid">
+                    <div class="cd-cell">
+                        <span class="cd-num" id="cdDays">--</span>
+                        <span class="cd-label">Days</span>
+                    </div>
+                    <div class="cd-cell">
+                        <span class="cd-num" id="cdHours">--</span>
+                        <span class="cd-label">Hours</span>
+                    </div>
+                    <div class="cd-cell">
+                        <span class="cd-num" id="cdMins">--</span>
+                        <span class="cd-label">Minutes</span>
+                    </div>
+                    <div class="cd-cell">
+                        <span class="cd-num" id="cdSecs">--</span>
+                        <span class="cd-label">Seconds</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="calendar-card reveal">
+                <p class="cal-title">July 2001</p>
+                <div class="cal-grid" id="calGrid"><!-- Filled by JS --></div>
+                <p class="cal-note" id="calNote">the best day 💛</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================
+     FOOTER
+     ============================================ -->
+<footer class="footer">
+    <p class="footer-script">For you, Neesha.</p>
+    <p>Made with <span class="footer-heart">❤️</span> and a lot of yellow.</p>
+</footer>
+
+<!-- ============================================
+     IMAGE LIGHTBOX (Memories only)
+     ============================================ -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Enlarged photo" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+    <div class="lightbox-stage">
+        <img class="lightbox-img" id="lightboxImg" src="" alt="">
+        <p class="lightbox-caption" id="lightboxCaption"></p>
+    </div>
+</div>
+
+<!-- ============================================
+     PAGE SCRIPT
+     ============================================ -->
+<script>
+(function () {
+    'use strict';
+
+    /* =========================================================
+       0. NAV
+       ========================================================= */
+    const siteNav = document.getElementById('siteNav');
+    const navToggle = document.getElementById('navToggle');
+    const navMobile = document.getElementById('navMobile');
+
+    function handleNavScroll() {
+        if (window.scrollY > 40) siteNav.classList.add('scrolled');
+        else siteNav.classList.remove('scrolled');
+    }
+    window.addEventListener('scroll', handleNavScroll, { passive: true });
+    handleNavScroll();
+
+    navToggle.addEventListener('click', function () {
+        navMobile.classList.toggle('open');
+        navToggle.classList.toggle('open');
+    });
+
+    navMobile.querySelectorAll('a').forEach(function (link) {
+        link.addEventListener('click', function () {
+            navMobile.classList.remove('open');
+            navToggle.classList.remove('open');
+        });
+    });
+
+    const navItems = document.querySelectorAll('.nav-item');
+    const sections = ['about', 'story', 'memories', 'letters', 'birthday']
+        .map(function (id) { return document.getElementById(id); })
+        .filter(Boolean);
+
+    if ('IntersectionObserver' in window) {
+        const navObserver = new IntersectionObserver(function (entries) {
+            entries.forEach(function (entry) {
+                if (entry.isIntersecting) {
+                    const id = entry.target.id;
+                    navItems.forEach(function (item) {
+                        item.classList.toggle('active', item.getAttribute('href') === '#' + id);
+                    });
+                }
+            });
+        }, { rootMargin: '-40% 0px -55% 0px', threshold: 0 });
+        sections.forEach(function (s) { navObserver.observe(s); });
+    }
+
+    /* =========================================================
+       1. FLOATING HEARTS BACKGROUND
+       ========================================================= */
+    const heartsBg = document.getElementById('heartsBg');
+    const heartGlyphs = ['💛', '🌻', '💖', '✨', '🤍', '🌼'];
+    const HEART_COUNT = window.innerWidth < 520 ? 12 : 20;
+
+    for (let i = 0; i < HEART_COUNT; i++) {
+        const h = document.createElement('span');
+        h.className = 'heart-float';
+        h.textContent = heartGlyphs[Math.floor(Math.random() * heartGlyphs.length)];
+        h.style.left = Math.random() * 100 + '%';
+        h.style.fontSize = (14 + Math.random() * 16) + 'px';
+        h.style.animationDuration = (10 + Math.random() * 10) + 's';
+        h.style.animationDelay = (-Math.random() * 15) + 's';
+        heartsBg.appendChild(h);
+    }
+
+    /* =========================================================
+       2. BACKGROUND MUSIC — MP3 PLAYLIST
+       ========================================================= */
+    const playlist = [
+        { src: 'assets/our-song.mp3',    title: 'Our First Song 💛' },
+        { src: 'assets/our-song-2.mp3',  title: 'Our Second Song 🌻' },
+        { src: 'assets/our-song-3.mp3',  title: 'Our Third Song ✨' }
+    ];
+
+    const music = document.getElementById('bgMusic');
+    const musicBtn = document.getElementById('musicBtn');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    const shuffleBtn = document.getElementById('shuffleBtn');
+    const playlistBtn = document.getElementById('playlistBtn');
+    const playlistPanel = document.getElementById('playlistPanel');
+    const playlistList = document.getElementById('playlistList');
+    const playlistClose = document.getElementById('playlistClose');
+    const toast = document.getElementById('nowPlayingToast');
+
+    let trackIndex = 0;
+    let isPlaying = false;
+    let buttonEnabled = false;
+    let metadataReady = false;
+    let shuffleOn = false;
+    let lastToastedIndex = -1;
+
+    music.volume = 0.55;
+
+    function currentTrack() { return playlist[trackIndex]; }
+
+    function setPlaying(state) {
+        isPlaying = state;
+        musicBtn.classList.toggle('playing', isPlaying);
+        musicBtn.setAttribute('aria-label', isPlaying ? 'Pause music' : 'Play music');
+    }
+
+    let toastTimer = null;
+    function showToast(text) {
+        toast.textContent = text;
+        toast.classList.add('show');
+        clearTimeout(toastTimer);
+        toastTimer = setTimeout(function () {
+            toast.classList.remove('show');
+        }, 3200);
+    }
+
+    function updateActiveItem() {
+        playlistList.querySelectorAll('li').forEach(function (li) {
+            li.classList.toggle('active', parseInt(li.dataset.index, 10) === trackIndex);
+        });
+    }
+
+    function tryPlay() {
+        const p = music.play();
+        if (p && typeof p.catch === 'function') {
+            p.catch(function (err) {
+                console.log('Autoplay blocked:', err.name);
+            });
+        }
+    }
+
+    function loadTrack(index, autoPlay) {
+        if (!playlist.length) return;
+        trackIndex = ((index % playlist.length) + playlist.length) % playlist.length;
+
+        metadataReady = false;
+        const track = currentTrack();
+        music.src = track.src;
+        music.load();
+
+        if (autoPlay) {
+            const onCanPlay = function () {
+                music.removeEventListener('canplay', onCanPlay);
+                tryPlay();
+            };
+            music.addEventListener('canplay', onCanPlay);
+        }
+        updateActiveItem();
+    }
+
+    function nextTrack() {
+        if (shuffleOn && playlist.length > 1) {
+            let newIndex;
+            do {
+                newIndex = Math.floor(Math.random() * playlist.length);
+            } while (newIndex === trackIndex);
+            loadTrack(newIndex, true);
+        } else {
+            loadTrack(trackIndex + 1, true);
+        }
+    }
+
+    function prevTrack() {
+        if (music.currentTime > 3) {
+            music.currentTime = 0;
+            if (!isPlaying) tryPlay();
+        } else {
+            loadTrack(trackIndex - 1, true);
+        }
+    }
+
+    function renderPlaylist() {
+        playlistList.innerHTML = '';
+        playlist.forEach(function (track, i) {
+            const li = document.createElement('li');
+            li.dataset.index = i;
+            const num = document.createElement('span');
+            num.className = 'pl-num';
+            num.textContent = (i + 1);
+            const name = document.createElement('span');
+            name.className = 'pl-title';
+            name.textContent = track.title;
+            li.appendChild(num);
+            li.appendChild(name);
+            li.addEventListener('click', function () {
+                loadTrack(i, true);
+                playlistPanel.classList.remove('open');
+            });
+            playlistList.appendChild(li);
+        });
+        updateActiveItem();
+    }
+    renderPlaylist();
+
+    musicBtn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        if (!buttonEnabled) return;
+        if (isPlaying) music.pause();
+        else tryPlay();
+    });
+
+    prevBtn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        if (!buttonEnabled) return;
+        prevTrack();
+    });
+
+    nextBtn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        if (!buttonEnabled) return;
+        nextTrack();
+    });
+
+    shuffleBtn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        shuffleOn = !shuffleOn;
+        shuffleBtn.classList.toggle('active', shuffleOn);
+        showToast(shuffleOn ? '🔀 Shuffle on' : 'Shuffle off');
+    });
+
+    playlistBtn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        playlistPanel.classList.toggle('open');
+    });
+
+    playlistClose.addEventListener('click', function (e) {
+        e.stopPropagation();
+        playlistPanel.classList.remove('open');
+    });
+
+    document.addEventListener('click', function (e) {
+        if (!playlistPanel.contains(e.target) && !playlistBtn.contains(e.target)) {
+            playlistPanel.classList.remove('open');
+        }
+    });
+
+    music.addEventListener('play', function () {
+        setPlaying(true);
+        if (trackIndex !== lastToastedIndex) {
+            lastToastedIndex = trackIndex;
+            showToast('♪ ' + currentTrack().title);
+        }
+    });
+
+    music.addEventListener('pause', function () { setPlaying(false); });
+
+    music.addEventListener('ended', function () {
+        lastToastedIndex = -1;
+        nextTrack();
+    });
+
+    music.addEventListener('canplaythrough', function () {
+        metadataReady = true;
+        if (!buttonEnabled) {
+            buttonEnabled = true;
+            musicBtn.disabled = false;
+        }
+        if (!isPlaying && trackIndex === 0 && !music._autoTried) {
+            music._autoTried = true;
+            tryPlay();
+        }
+    });
+
+    music.addEventListener('loadedmetadata', function () {
+        metadataReady = true;
+        if (!buttonEnabled) {
+            buttonEnabled = true;
+            musicBtn.disabled = false;
+        }
+    });
+
+    music.addEventListener('error', function () {
+        console.warn('Could not load track:', currentTrack() && currentTrack().src);
+        if (playlist.length === 1) {
+            musicBtn.disabled = true;
+            musicBtn.style.opacity = '0.5';
+            musicBtn.style.cursor = 'not-allowed';
+            showToast('Audio missing 😢');
+        } else {
+            nextTrack();
+        }
+    });
+
+    setTimeout(function () {
+        if (!buttonEnabled) {
+            buttonEnabled = true;
+            musicBtn.disabled = false;
+        }
+    }, 3000);
+
+    loadTrack(0, true);
+
+    function startOnFirstInteraction() {
+        if (!isPlaying && buttonEnabled) {
+            tryPlay();
+        }
+        document.removeEventListener('click', startOnFirstInteraction);
+        document.removeEventListener('touchstart', startOnFirstInteraction);
+        document.removeEventListener('keydown', startOnFirstInteraction);
+        document.removeEventListener('scroll', startOnFirstInteraction);
+        window.removeEventListener('wheel', startOnFirstInteraction);
+    }
+
+    document.addEventListener('click', startOnFirstInteraction);
+    document.addEventListener('touchstart', startOnFirstInteraction);
+    document.addEventListener('keydown', startOnFirstInteraction);
+    document.addEventListener('scroll', startOnFirstInteraction, { passive: true });
+    window.addEventListener('wheel', startOnFirstInteraction);
+
+    /* =========================================================
+       3. LOVE LETTERS — TOGGLE
+       ========================================================= */
+    document.querySelectorAll('.letter').forEach(function (letter) {
+        function toggle() { letter.classList.toggle('open'); }
+        letter.addEventListener('click', toggle);
+        letter.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                toggle();
+            }
+        });
+    });
+
+    /* =========================================================
+       4. BIRTHDAY COUNTDOWN
+       ========================================================= */
+    function getNextBirthday() {
+        const now = new Date();
+        const year = now.getFullYear();
+        let next = new Date(year, 6, 2, 0, 0, 0, 0);
+        if (next.getTime() <= now.getTime()) {
+            next = new Date(year + 1, 6, 2, 0, 0, 0, 0);
+        }
+        return next;
+    }
+
+    const cdDays = document.getElementById('cdDays');
+    const cdHours = document.getElementById('cdHours');
+    const cdMins = document.getElementById('cdMins');
+    const cdSecs = document.getElementById('cdSecs');
+
+    function pad(n) { return n < 10 ? '0' + n : '' + n; }
+
+    function updateCountdown() {
+        const now = new Date();
+        const target = getNextBirthday();
+        let diff = Math.max(0, target - now);
+
+        const days  = Math.floor(diff / 86400000); diff -= days * 86400000;
+        const hours = Math.floor(diff / 3600000);  diff -= hours * 3600000;
+        const mins  = Math.floor(diff / 60000);    diff -= mins * 60000;
+        const secs  = Math.floor(diff / 1000);
+
+        cdDays.textContent  = pad(days);
+        cdHours.textContent = pad(hours);
+        cdMins.textContent  = pad(mins);
+        cdSecs.textContent  = pad(secs);
+    }
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+
+    /* =========================================================
+       5. MINI CALENDAR — JULY 2001
+       ========================================================= */
+    const calGrid = document.getElementById('calGrid');
+    const calNote = document.getElementById('calNote');
+    const heads = ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
+    heads.forEach(function (d) {
+        const el = document.createElement('div');
+        el.className = 'cal-head';
+        el.textContent = d;
+        calGrid.appendChild(el);
+    });
+
+    const startDay = 0;
+    const daysInMonth = 31;
+    for (let i = 0; i < startDay; i++) calGrid.appendChild(document.createElement('div'));
+    for (let d = 1; d <= daysInMonth; d++) {
+        const el = document.createElement('div');
+        el.textContent = d;
+        if (d === 2) {
+            el.classList.add('cal-day-highlight');
+            el.title = "Neesha's Birthday 🎂";
+        }
+        calGrid.appendChild(el);
+    }
+
+    const today = new Date();
+    if (today.getMonth() === 6 && today.getDate() === 2) {
+        calNote.textContent = "🎉 Happy Birthday, sayang! 🎉";
+    }
+
+    /* =========================================================
+       5b. IMAGE LIGHTBOX — MEMORIES (POLAROIDS) ONLY
+       ========================================================= */
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightboxImg');
+    const lightboxCaption = document.getElementById('lightboxCaption');
+    const lightboxClose = document.getElementById('lightboxClose');
+
+    function openLightbox(src, alt, caption) {
+        lightboxImg.src = src;
+        lightboxImg.alt = alt || '';
+        lightboxCaption.textContent = caption || '';
+        lightbox.classList.add('open');
+        lightbox.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+        lightbox.classList.remove('open');
+        lightbox.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = '';
+        setTimeout(function () {
+            if (!lightbox.classList.contains('open')) {
+                lightboxImg.src = '';
+                lightboxCaption.textContent = '';
+            }
+        }, 350);
+    }
+
+    // Attach only to memory polaroids
+    document.querySelectorAll('#memories .polaroid').forEach(function (card) {
+        const img = card.querySelector('.polaroid-photo img');
+        const captionEl = card.querySelector('.polaroid-caption');
+        if (!img) return;
+
+        card.addEventListener('click', function () {
+            openLightbox(
+                img.currentSrc || img.src,
+                img.alt,
+                captionEl ? captionEl.textContent.trim() : ''
+            );
+        });
+
+        // Keyboard accessibility
+        card.setAttribute('tabindex', '0');
+        card.setAttribute('role', 'button');
+        card.setAttribute('aria-label', 'Enlarge photo');
+        card.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                openLightbox(
+                    img.currentSrc || img.src,
+                    img.alt,
+                    captionEl ? captionEl.textContent.trim() : ''
+                );
+            }
+        });
+    });
+
+    if (lightboxClose) {
+        lightboxClose.addEventListener('click', function (e) {
+            e.stopPropagation();
+            closeLightbox();
+        });
+    }
+
+    if (lightbox) {
+        lightbox.addEventListener('click', function (e) {
+            if (e.target === lightbox || e.target.classList.contains('lightbox-stage')) {
+                closeLightbox();
+            }
+        });
+    }
+
+    document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && lightbox && lightbox.classList.contains('open')) {
+            closeLightbox();
+        }
+    });
+
+    /* =========================================================
+       6. SCROLL REVEAL
+       ========================================================= */
+    const reveals = document.querySelectorAll('.reveal');
+    if ('IntersectionObserver' in window) {
+        const io = new IntersectionObserver(function (entries) {
+            entries.forEach(function (entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    io.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+        reveals.forEach(function (el) { io.observe(el); });
+    } else {
+        reveals.forEach(function (el) { el.classList.add('visible'); });
+    }
+
+})();
+</script>
 </body>
 </html>
